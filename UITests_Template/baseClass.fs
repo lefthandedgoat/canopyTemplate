@@ -9,9 +9,10 @@ open canopy.configuration
 open NUnit.Framework
 open OpenQA.Selenium
 open OpenQA.Selenium.Chrome
+open canopy.finders
 
 module DummyModuleForAttribute =
-    [<assembly:LevelOfParallelism(6)>]
+    [<assembly:LevelOfParallelism(1)>]
     do ()
 
 type ApplicantDetails = {LastName:string;LastName2:string}
@@ -40,7 +41,7 @@ type public baseClass () =
     member this.BeforeAllTests () =
         elementTimeout <- this.canopyTimeOuts.Element |> float
         compareTimeout <- this.canopyTimeOuts.Compare |> float
-        pageTimeout <- this.canopyTimeOuts.Page |> float
+        pageTimeout <- this.canopyTimeOuts.Page |> float                
 
     [<SetUp>]
     member this.BeforeTest () =

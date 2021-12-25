@@ -14,6 +14,12 @@ module Page =
         let checkbox = "#checkbox"
         let ajaxButton = "#ajax_button"
 
+        let optionA = ".k-group-start"
+        let optionB = ".k-group-end"
+        let paula = ".k-chip .paula"
+        let thomas = ".k-chip .thomas"
+        let icheck = ".k-i-check"
+
     module Action =
 
         open Selectors
@@ -26,67 +32,135 @@ module Page =
         let ajaxButton x = click ajaxButton x
 
         let performSomeTestSteps x last last2 =
-            lastName x last
-            lastName2 x last2
-            button x
-            radio1 x
-            checkbox x
-            ajaxButton x
-            lastName x last
-            lastName2 x last2
-            button x
-            radio1 x
-            checkbox x
-            ajaxButton x
-            lastName x last
-            lastName2 x last2
-            button x
-            radio1 x
-            checkbox x
-            ajaxButton x
-            lastName x last
-            lastName2 x last2
-            button x
-            radio1 x
-            checkbox x
-            ajaxButton x
-            lastName x last
-            lastName2 x last2
-            button x
-            radio1 x
-            checkbox x
-            ajaxButton x
-            lastName x last
-            lastName2 x last2
-            button x
-            radio1 x
-            checkbox x
-            ajaxButton x
-            lastName x last
-            lastName2 x last2
-            button x
-            radio1 x
-            checkbox x
-            ajaxButton x
-            lastName x last
-            lastName2 x last2
-            button x
-            radio1 x
-            checkbox x
-            ajaxButton x
-            lastName x last
-            lastName2 x last2
-            button x
-            radio1 x
-            checkbox x
-            ajaxButton x
-            lastName x last
-            lastName2 x last2
-            button x
-            radio1 x
-            checkbox x
-            ajaxButton x
+            click "#onetrust-accept-btn-handler" x
+            click optionA x
+            click optionB x
+            click paula x
+            click icheck x
+            click thomas x
+            click icheck x
+            click optionA x
+            click optionB x
+            click optionA x
+            click optionB x
+            click paula x
+            click icheck x
+            click thomas x
+            click icheck x
+            click optionA x
+            click optionB x
+            click optionA x
+            click optionB x
+            click paula x
+            click icheck x
+            click thomas x
+            click icheck x
+            click optionA x
+            click optionB x
+            click optionA x
+            click optionB x
+            click paula x
+            click icheck x
+            click thomas x
+            click icheck x
+            click optionA x
+            click optionB x
+            click optionA x
+            click optionB x
+            click paula x
+            click icheck x
+            click thomas x
+            click icheck x
+            click optionA x
+            click optionB x
+            click optionA x
+            click optionB x
+            click paula x
+            click icheck x
+            click thomas x
+            click icheck x
+            click optionA x
+            click optionB x
+            click optionA x
+            click optionB x
+            click paula x
+            click icheck x
+            click thomas x
+            click icheck x
+            click optionA x
+            click optionB x
+            click optionA x
+            click optionB x
+            click paula x
+            click icheck x
+            click thomas x
+            click icheck x
+            click optionA x
+            click optionB x
 
-module Assert = 
 
-        let lastNameInputCorrect x id input = equals id input x
+            //lastName x last
+            //lastName2 x last2
+            //button x
+            //radio1 x
+            //checkbox x
+            //ajaxButton x
+            //lastName x last
+            //lastName2 x last2
+            //button x
+            //radio1 x
+            //checkbox x
+            //ajaxButton x
+            //lastName x last
+            //lastName2 x last2
+            //button x
+            //radio1 x
+            //checkbox x
+            //ajaxButton x
+            //lastName x last
+            //lastName2 x last2
+            //button x
+            //radio1 x
+            //checkbox x
+            //ajaxButton x
+            //lastName x last
+            //lastName2 x last2
+            //button x
+            //radio1 x
+            //checkbox x
+            //ajaxButton x
+            //lastName x last
+            //lastName2 x last2
+            //button x
+            //radio1 x
+            //checkbox x
+            //ajaxButton x
+            //lastName x last
+            //lastName2 x last2
+            //button x
+            //radio1 x
+            //checkbox x
+            //ajaxButton x
+            //lastName x last
+            //lastName2 x last2
+            //button x
+            //radio1 x
+            //checkbox x
+            //ajaxButton x
+            //lastName x last
+            //lastName2 x last2
+            //button x
+            //radio1 x
+            //checkbox x
+            //ajaxButton x
+            //lastName x last
+            //lastName2 x last2
+            //button x
+            //radio1 x
+            //checkbox x
+            //ajaxButton x
+
+module Assert =
+        let lastNameInputCorrect x id input =  
+            //equals id input x
+            1 === 1
